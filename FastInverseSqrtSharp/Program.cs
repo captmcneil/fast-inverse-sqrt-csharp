@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp1
+﻿namespace FastInverseSqrtSharp
 {
 	using System;
 	using System.Diagnostics;
@@ -58,7 +58,7 @@
 			index = 0;
 			foreach (var eachNumber in randomFloats)
 			{
-				nativeResults[index] = InverseSqrt(randomFloats[index]);
+				nativeResults[index] = InverseSqrt(eachNumber);
 				index += 1;
 			}
 			
